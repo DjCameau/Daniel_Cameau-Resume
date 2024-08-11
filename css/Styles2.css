@@ -1,0 +1,77 @@
+.myborder {
+    background-color: rgb(146, 150, 125);
+}
+.body2 {
+    background-color: rgb(200, 198, 167);
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    left: 100px;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+}
+.div1{
+    background-color: rgb(146, 150, 125);
+    padding: 10px 10px 10px 20px;
+}
+.h1 {
+    color:rgb(235, 235, 235);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.explination {
+    color:rgb(235, 235, 235);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.h2 {
+    color:rgb(146, 150, 125);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Center{
+    text-align: center;
+}
+.button{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: beige;
+    position: fixed; 
+    right: 20px;
+    top: 20px;
+}
+.button:hover {
+    color:blueviolet;
+}
+.container {
+    width: 70%; /* Adjust as needed */
+    margin: 0 auto;
+}
+.h3 {
+    color:rgb(235, 235, 235);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.cardholders{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 2rem;
+    margin: 30px 5rem 0 5rem;
+
+}
+.card{
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
